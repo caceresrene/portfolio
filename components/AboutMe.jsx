@@ -3,9 +3,12 @@ import React from 'react';
 import meKeyboard from '../public/assets/me-keyboard.jpg';
 import meSunset from '../public/assets/me-sunset.jpg';
 
+
 const AboutMe = () => {
 	return (
-		<section className='grid sm:grid-cols-2 place-items-center p-4'>
+		<section
+			className='grid sm:grid-cols-2 place-items-center p-4'
+		>
 			<figure className='w-48 sm:w-96 -rotate-6 shadow-lg flex hover:rotate-0 transition-all mb-8'>
 				<Image
 					src={meKeyboard}

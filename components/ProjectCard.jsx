@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import { motion } from 'framer-motion';
+import { fadeInUp } from '../utils/varients';
 
 const ProjectCard = ({
 	thumbnail,
@@ -9,7 +11,12 @@ const ProjectCard = ({
 	unfinished,
 }) => {
 	return (
-		<a className='rounded-lg hover:-translate-y-1 hover:shadow-2xl transition-all bg-zinc-200 hover:cursor-pointer'>
+		<motion.a
+			variants={fadeInUp}
+			whileHover={{ scale: 1.04 }}
+			whileTap={{ scale: 0.95 }}
+			className='rounded-lg  transition-all bg-zinc-200 hover:cursor-pointer hover:shadow-md'
+		>
 			<Image
 				className='rounded-t-lg'
 				src={thumbnail}
@@ -32,7 +39,7 @@ const ProjectCard = ({
 					))}
 				</div>
 			</div>
-		</a>
+		</motion.a>
 	);
 };
 

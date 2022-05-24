@@ -1,11 +1,11 @@
 import '../styles/globals.css';
-import Head from 'next/dist/shared/lib/head';
+import { AnimatePresence } from 'framer-motion';
 
 function MyApp({ Component, pageProps }) {
 	return (
-		<>
+		<AnimatePresence exitBeforeEnter>
 			<Component {...pageProps} />
-		</>
+		</AnimatePresence>
 	);
 }
 
