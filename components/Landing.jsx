@@ -2,6 +2,7 @@ import React from 'react';
 import landingMe from '../public/assets/landing-me.jpg';
 import Image from 'next/image';
 import LinkIcon from './Icons/LinkIcon';
+import Link from 'next/link';
 
 const Landing = () => {
 	return (
@@ -15,9 +16,9 @@ const Landing = () => {
 				<p className='my-4'>
 					I&apos;m a full-stack developer based in Santiago, Chile; I&apos;m
 					currently seeking my first opportunity in the industry; please check out{' '}
-					<a className='styled-anchor' href='#'>
-						my projects
-					</a>{' '}
+					<Link href='/projects'>
+						<a className='styled-anchor'>my projects</a>
+					</Link>{' '}
 					and feel free to contact me if you like what you see :^)
 				</p>
 				<ul className='flex justify-around p-2 text-lg flex-wrap'>

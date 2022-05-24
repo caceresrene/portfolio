@@ -19,7 +19,7 @@ const ProjectCard = ({
 				<h3>
 					<span className='font-bold'>{name}</span> - {shortDesc}
 				</h3>
-				<div className='flex gap-2 my-2 flex-wrap'>
+				<div className='flex gap-2 my-2 flex-wrap text-base sm:text-xl'>
 					{unfinished && (
 						<figure className='bg-amber-200 rounded-lg py-1 px-2 shadow shadow-amber-400'>
 							Work in progress
