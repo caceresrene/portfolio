@@ -2,7 +2,7 @@ import React from 'react';
 
 const AboutSkills = () => {
 	return (
-		<section className='py-8 mb-8'>
+		<section className='py-8 my-8 px-4'>
 			<h3 className='font-semibold text-xl text-center'>
 				I enjoy coding in these technologies
 			</h3>

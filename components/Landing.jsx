@@ -5,8 +5,8 @@ import LinkIcon from './Icons/LinkIcon';
 
 const Landing = () => {
 	return (
-		<main className='grid grid-cols-2 place-items-center mt-10'>
-			<section>
+		<main className='grid sm:grid-cols-2 gap-4 sm:gap-0 place-items-center mt-10 p-4'>
+			<section className='row-start-2 sm:row-start-auto'>
 				<div className='text-3xl'>
 					<p>Hi, my name is</p>
 					<h1 className='text-5xl font-bold'>René Cáceres</h1>
@@ -54,8 +54,12 @@ const Landing = () => {
 				</ul>
 			</section>
 			<section>
-				<figure className='w-96 rotate-6 shadow-lg flex hover:rotate-0 transition-all'>
-					<Image src={landingMe} alt='me at the beach' className='rounded bg-cover object-fill' />
+				<figure className='w-48 sm:w-96 rotate-6 shadow-lg flex hover:rotate-0 transition-all'>
+					<Image
+						src={landingMe}
+						alt='me at the beach'
+						className='rounded bg-cover object-fill'
+					/>
 				</figure>
 			</section>
 		</main>

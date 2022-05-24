@@ -11,12 +11,19 @@ import AboutMeWave from '../components/waves/AboutMeWave';
 export default function Home() {
 	return (
 		<>
+			<Head>
+				<title>René Cáceres — Web Developer</title>
+				<meta
+					name='description'
+					content="René's portfolio, Full Stack Web Developer, who loves Front-end"
+				/>
+			</Head>
 			<Nav />
 			<Layout>
 				<Landing />
 			</Layout>
 			<AboutMeWave />
-			<section className='bg-zinc-900 text-white'>
+			<section className='bg-zinc-900 text-white -translate-y-0.5'>
 				<Layout>
 					<AboutMe />
 					<AboutSkills />
