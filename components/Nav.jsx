@@ -7,7 +7,7 @@ const Nav = () => {
 	const [toggleMenu, setToggleMenu] = useState(false);
 
 	const styledUl = {
-		open: 'flex gap-4 flex-col w-full h-screen my-4 text-xl',
+		open: 'flex gap-4 flex-col w-full my-4 text-xl',
 		closed: 'hidden sm:flex gap-4 items-center',
 	};
 

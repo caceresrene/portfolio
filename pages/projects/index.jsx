@@ -19,7 +19,7 @@ const index = () => {
 			</Head>
 			<Nav />
 			<Layout extended>
-				<section className='grid md:grid-cols-2 mb-8 gap-4 p-4'>
+				<section className='grid md:grid-cols-2 mb-8 gap-4 p-2'>
 					<ProjectCard
 						thumbnail={adoptaclickDesktop}
 						technologies={['Python', 'Flask', 'Tailwind CSS', 'MySQL']}
