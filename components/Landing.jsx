@@ -5,7 +5,7 @@ import LinkIcon from './Icons/LinkIcon';
 
 const Landing = () => {
 	return (
-		<main className='grid sm:grid-cols-2 gap-4 sm:gap-0 place-items-center mt-10 p-4'>
+		<main className='grid sm:grid-cols-2 gap-4 sm:gap-0 place-items-center sm:mt-10 p-4'>
 			<section className='row-start-2 sm:row-start-auto'>
 				<div className='text-2xl sm:text-3xl'>
 					<p>Hi, my name is</p>

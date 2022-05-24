@@ -6,7 +6,7 @@ const AboutSkills = () => {
 			<h3 className='font-semibold text-xl text-center'>
 				I enjoy coding in these technologies
 			</h3>
-			<div className='grid grid-cols-4 place-items-center mt-6 gap-8'>
+			<div className='grid grid-cols-2 sm:grid-cols-4 place-items-center mt-6 gap-8'>
 				<div className='text-center'>
 					<i className='devicon-javascript-plain text-7xl animate-pulse' />
 					<p>JavaScript</p>
