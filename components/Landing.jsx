@@ -7,9 +7,9 @@ const Landing = () => {
 	return (
 		<main className='grid sm:grid-cols-2 gap-4 sm:gap-0 place-items-center mt-10 p-4'>
 			<section className='row-start-2 sm:row-start-auto'>
-				<div className='text-3xl'>
+				<div className='text-2xl sm:text-3xl'>
 					<p>Hi, my name is</p>
-					<h1 className='text-5xl font-bold'>René Cáceres</h1>
+					<h1 className='text-4xl sm:text-5xl font-bold'>René Cáceres</h1>
 					<p>I build powerful websites with modern technologies.</p>
 				</div>
 				<p className='my-4'>
@@ -20,7 +20,7 @@ const Landing = () => {
 					</a>{' '}
 					and feel free to contact me if you like what you see :^)
 				</p>
-				<ul className='flex justify-around p-2 text-lg'>
+				<ul className='flex justify-around p-2 text-lg flex-wrap'>
 					<li>
 						<a
 							className='text-blue-500 hover:text-blue-400 p-1 flex items-center gap-1'
