@@ -10,7 +10,7 @@ const Footer = () => {
 			<div className='flex flex-col items-end tracking-wider'>
 				<a
 					className='cursor-pointer styled-anchor'
-					href='http://'
+					href='https://www.linkedin.com/in/renecaceresdeveloper/'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
@@ -18,7 +18,7 @@ const Footer = () => {
 				</a>
 				<a
 					className='cursor-pointer styled-anchor'
-					href='http://'
+					href='https://github.com/caceresrene'
 					target='_blank'
 					rel='noopener noreferrer'
 				>
