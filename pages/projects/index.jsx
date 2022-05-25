@@ -22,11 +22,7 @@ const index = () => {
 				<meta name='description' content="René's portfolio, projects section" />
 			</Head>
 			<Nav />
-			<motion.section
-				initial='initial'
-				animate='animate'
-				exit={{ opacity: 0 }}
-			>
+			<motion.section initial='initial' animate='animate' exit={{ opacity: 0 }}>
 				<Layout extended>
 					<motion.section
 						initial={{ opacity: 0 }}
@@ -39,18 +35,21 @@ const index = () => {
 							technologies={['Python', 'Flask', 'Tailwind CSS', 'MySQL']}
 							name={'Adopta.click'}
 							shortDesc={'Adoption platform'}
+							projectRepo={'https://github.com/caceresrene/adopta-click'}
 						/>
 						<ProjectCard
 							thumbnail={ghiblidictionaryDesktop}
 							technologies={['Next.js', 'Tailwind CSS', 'Axios', 'Framer Motion']}
 							name={'Ghibli Dictionary'}
 							shortDesc={'Information about Ghibli Films'}
+							projectRepo={'https://github.com/caceresrene/ghibli'}
 						/>
 						<ProjectCard
 							thumbnail={countrysearchDesktop}
 							technologies={['React.js', 'Tailwind CSS', 'Apollo Client']}
 							name={'Country Search'}
 							shortDesc={'Search bar for countries and territories'}
+							projectRepo={'https://github.com/caceresrene/countries-graphql'}
 						/>
 						<ProjectCard
 							thumbnail={nijistreamsDesktop}
@@ -63,12 +62,14 @@ const index = () => {
 							name={'Nijistreams'}
 							shortDesc={'Check live streams from your favorite vtubers'}
 							unfinished
+							projectRepo={'https://github.com/caceresrene/nijistreams'}
 						/>
 						<ProjectCard
 							thumbnail={portfolioDesktop}
-							technologies={['Next.js', 'Tailwind CSS']}
+							technologies={['Next.js', 'Tailwind CSS', 'Framer Motion']}
 							name={'Portfolio'}
 							shortDesc={'My personal portfolio'}
+							projectRepo={'https://github.com/caceresrene/portfolio'}
 						/>
 						<ProjectCard
 							thumbnail={mercadofoodDesktop}
@@ -83,6 +84,7 @@ const index = () => {
 							name={'mercadofood'}
 							shortDesc={'Online supermarket'}
 							unfinished
+							projectRepo={'https://github.com/caceresrene/mercadofood'}
 						/>
 					</motion.section>
 				</Layout>

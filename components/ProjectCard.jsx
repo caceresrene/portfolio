@@ -9,9 +9,13 @@ const ProjectCard = ({
 	shortDesc,
 	technologies,
 	unfinished,
+	projectRepo,
 }) => {
 	return (
 		<motion.a
+			href={projectRepo}
+			target='_blank'
+			rel='noopener noreferrer'
 			variants={fadeInUp}
 			whileHover={{ scale: 1.04 }}
 			whileTap={{ scale: 0.95 }}
