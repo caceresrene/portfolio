@@ -15,8 +15,16 @@ export default function Home() {
 			<Head>
 				<title>René Cáceres — Web Developer</title>
 				<meta
+					name='og:title'
+					content='René Cáceres — Full Stack Developer who loves Front-end'
+				/>
+				<meta
 					name='description'
 					content="René's portfolio, Full Stack Web Developer, who loves Front-end"
+				/>
+				<meta
+					property='og:image'
+					content='https://www.rene.fun/assets/ogImage.png'
 				/>
 			</Head>
 			<Nav />

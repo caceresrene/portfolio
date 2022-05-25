@@ -20,6 +20,10 @@ const index = () => {
 			<Head>
 				<title>René Cáceres — Projects</title>
 				<meta name='description' content="René's portfolio, projects section" />
+				<meta
+					property='og:image'
+					content='https://www.rene.fun/assets/ogImage.png'
+				/>
 			</Head>
 			<Nav />
 			<motion.section initial='initial' animate='animate' exit={{ opacity: 0 }}>
